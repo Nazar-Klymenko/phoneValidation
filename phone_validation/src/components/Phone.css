@@ -1,0 +1,59 @@
+.order-wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-wrap-w-prefix {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 20px;
+}
+.input-wrap {
+  position: relative;
+}
+.phone-prefix {
+  padding: 6px 6px;
+  border: 1px solid #bbb;
+  border-radius: 4px 0px 0px 4px;
+  background: rgb(194, 194, 194);
+  outline-offset: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  max-width: 3.5rem;
+  line-height: 1;
+  margin-right: -4px;
+  width: auto;
+}
+.order-input {
+  padding: 6px 6px;
+  border: 1px solid #bbb;
+  border-radius: 0px 4px 4px 0px;
+  outline-offset: 0;
+  font-family: sans-serif;
+  line-height: 1;
+  outline: none;
+  font-size: 1rem;
+}
+.order-input:focus {
+  border: 1px solid#6eaae1;
+  outline: none;
+}
+.error {
+  font-size: 0.8rem;
+  color: #ff4848;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+}
+
+.error-outline {
+  border: 1px solid #ff4848;
+}
+.error-outline:focus {
+  border: 1px solid #ff4848;
+}
+.hidden {
+  display: none;
+}
